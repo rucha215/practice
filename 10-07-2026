@@ -19,7 +19,7 @@ elif (5 <= b <= 17 ):
      print("Hello" , a, "\n Your Ticket is 150")
 elif (18 <= b <= 59):
      print("Hello" , a, "\n Your Ticket is 250")
-elif (b >= 60):
+else:
      print("Hello" , a, "\n Your Ticket is 100")
 
 
@@ -35,9 +35,11 @@ elif b>=a and b >=c:
 else:
      print("largest number is ",c)   
 
-a = input("enter a password :")
+
   
 # depending on length give the typw of password 
+a = input("enter a password :")
+  
 if len(a) < 8:
      print("weakpassword")
 elif 8<= len(a) <= 12:
