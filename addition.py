@@ -1,15 +1,13 @@
 def add(a , b):
      c = a + b
-     return c 
+     return c
 
-def main():
-    a = int(input("enter a number:"))
-    b = int(input("enter a number: "))
+def sub(a , b):
+     c = a - b
+     return c
 
-    result = add(a,b)
-    print("addintion is:", result)
+print(add(5,20))
+print(sub(40,80))
 
-
-if __name__ == "__main__":
-    main()
-
+c = add(5,20) + add(5,20)
+print("my answer:",c)
